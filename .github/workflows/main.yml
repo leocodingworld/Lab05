@@ -1,6 +1,7 @@
 name: Github Action
-
 on:	push
 jobs:
-	steps:
-   		- run: python .\main.py
+  myjob:
+    runs-on: ubuntu-lastest
+    steps:
+        - run: python .\main.py
