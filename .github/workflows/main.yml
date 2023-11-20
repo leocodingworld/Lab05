@@ -2,6 +2,5 @@ name: Github Action
 
 on:	push
 jobs:
-	build:
- 		steps:
-   			- run: python .\main.py
+	steps:
+   		- run: python .\main.py
