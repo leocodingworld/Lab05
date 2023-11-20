@@ -4,4 +4,4 @@ jobs:
   myjob:
     runs-on: ubuntu-lastest
     steps:
-        - run: python .\main.py
+        - run: python main.py
